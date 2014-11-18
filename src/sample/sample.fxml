@@ -1,0 +1,16 @@
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TreeItem?>
+<?import javafx.scene.control.TreeView?>
+<SplitPane fx:controller="sample.Controller"
+           xmlns:fx="http://javafx.com/fxml">
+	<items>
+		<ScrollPane minWidth="200" fitToHeight="true" fitToWidth="true">
+			<TreeView>
+				<TreeItem value="root" />
+			</TreeView>
+		</ScrollPane>
+
+		<ScrollPane fitToHeight="true" fitToWidth="true" />
+	</items>
+</SplitPane>
